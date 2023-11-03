@@ -1,0 +1,26 @@
+p{
+    background: rgba(0, 0, 255,0.65);
+    padding: 1rem 2rem;
+    color: antiquewhite;
+    font-family: Helvetica;
+    font-size: 22px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 0px gray;
+    transition: transform 0.2s;
+    margin:auto;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+
+}
+
+p:nth-child(odd){
+    background-color: green;
+}
+
+p:hover {
+    cursor: pointer;
+    background: magenta;
+    transform:scale(1.2) ;
+}
